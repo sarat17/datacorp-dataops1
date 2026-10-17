@@ -1,0 +1,4 @@
+entorno: dev
+base_datos: datacorp_dev
+datos: anonimizados_muestra
+log_level: DEBUG

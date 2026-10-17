@@ -1,0 +1,5 @@
+entorno: qa
+base_datos: datacorp_qa
+datos: snapshot_anonimizado
+bucket: datacorp-staging-data
+log_level: INFO
