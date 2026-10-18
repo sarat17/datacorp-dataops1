@@ -101,3 +101,9 @@ resource "aws_iam_instance_profile" "dev" {
   name = "datacorp-dev-profile"
   role = aws_iam_role.dev_lectura.name
 }
+
+
+resource "aws_s3_bucket" "reportes" {
+  bucket = "datacorp-reportes"
+  tags   = { Entorno = "staging" }
+}
